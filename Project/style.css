@@ -1,0 +1,13 @@
+/*selected tag{
+    property : value
+}
+*/
+body {
+    background: url(activities.day1.jpg);
+    background-size: cover;
+    background-repeat: no repeat;
+}
+
+h1{
+    text-align: left;
+}

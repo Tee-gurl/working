@@ -1,0 +1,56 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="style.css">
+ </head>
+ <body>  
+   <div class="signUpBox">
+      
+   <form>
+      <h1>Personal information</h1>
+      <input type="text" placeholder="surname"> <br> <br>
+
+      <input type="text" placeholder="first name"><br> <br>
+      <input type="text" placeholder="other name"><br> <br>
+      <input type="email" placeholder="Email adress"> <br><br>
+      <input type="number" placeholder="whatsapp number"> <br><br>
+      <input type="text" placeholder="organization"> <br><br>
+
+
+   <h1>Registration</h1>
+   <P>Select registration type</P>
+            <!--for drop down menu-->
+            
+            <select name="FEEDBACK" id="">
+                <option value="1">Day 1-2 (10,000)</option>
+                <option value="2">Day 1-3 (15,000)</option>
+                <option value="3">student (10,000)</option>
+                </select><br>
+
+                <p><b>Kindly make payment into this account</b> <br>
+               Account name: NITP-YPF Lagos State Chapter <br>
+            Account Number: 1015009439 <br>
+         Bank: Zenith Bank</p>
+         <!--for text area-->
+         <form action="upload.php" method="post" enctype="multipart/form-data">
+            <label for="file"> upload file:</label>
+            <input type="file" id="file" accept=".pdf, .doc, .jpg" required> <br><br> 
+         </form>   
+            <input type="submit" value="submit">
+              
+              
+               </form>
+
+               </div>
+               
+   
+   
+   
+ 
+
+    
+ </body>
+ </html> 
